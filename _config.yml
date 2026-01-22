@@ -1,0 +1,48 @@
+# ===============================
+# Configuración básica del sitio
+# ===============================
+
+title: "Conscientemente, atención psicológica"
+subtitle: "Acompañamiento terapéutico con evidencia y calidez humana"
+description: "Espacio profesional dedicado a la psicoterapia, psicoeducación y bienestar emocional."
+locale: "es-CO"
+
+# URL (por ahora usamos la de GitHub Pages)
+url: ""
+baseurl: ""
+
+# ===============================
+# Tema
+# ===============================
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-include-cache
+
+# ===============================
+# Layout por defecto
+# ===============================
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# ===============================
+# Navegación principal
+# ===============================
+
+navigation:
+  main:
+    - title: "Inicio"
+      url: /
+    - title: "Sobre mí"
+      url: /sobre-mi/
+    - title: "Servicios"
+      url: /servicios/
+    - title: "Contacto"
+      url: /contacto/
