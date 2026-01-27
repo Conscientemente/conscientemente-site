@@ -46,3 +46,7 @@ navigation:
       url: /servicios/
     - title: "Contacto"
       url: /contacto/
+
+      # Estilos personalizados
+custom_css:
+  - /assets/css/custom.css
