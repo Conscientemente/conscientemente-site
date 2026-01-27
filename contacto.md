@@ -29,7 +29,10 @@ En caso de una emergencia vital o riesgo inminente, por favor acude a los servic
 
 ### 💬 Escríbenos directamente
 
-[📲 WhatsApp](https://wa.me/573114951017){: .btn .btn--success }
-[📧 Correo](mailto:conscientemente524@gmail.com){: .btn .btn--warning }
-[📸 Instagram](https://instagram.com/somos.conscientemente){: .btn .btn--info }
-[📘 Facebook](https://www.facebook.com/conscientemente24){: .btn .btn--primary }
+<a href="https://wa.me/573114951017" style="background:#25D366;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">WhatsApp</a>
+&nbsp;
+<a href="mailto:conscientemente524@gmail.com" style="background:#2F6F8F;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">Correo</a>
+&nbsp;
+<a href="https://instagram.com/somos.conscientemente" style="background:#2F6F8F;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">Instagram</a>
+&nbsp;
+<a href="https://www.facebook.com/conscientemente24" style="background:#2F6F8F;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">Facebook</a>
