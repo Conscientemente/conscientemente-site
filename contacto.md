@@ -21,7 +21,7 @@ La atención psicológica se brinda en modalidad **presencial y online**, previa
 
 ---
 
-### 📌 Importante
+### 📌 ¡Importante!
 Conscientemente **no es un servicio de urgencias ni de atención inmediata en crisis**.  
 En caso de una emergencia vital o riesgo inminente, por favor acude a los servicios de urgencias de tu localidad o zona.
 
