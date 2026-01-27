@@ -2,6 +2,7 @@
 title: "Contacto"
 layout: single
 author_profile: false
+permalink: /contacto/
 ---
 
 Si deseas agendar una cita, solicitar información o resolver alguna inquietud, puedes contactarnos a través de los siguientes medios:
