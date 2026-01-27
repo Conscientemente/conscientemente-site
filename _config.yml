@@ -47,5 +47,5 @@ navigation:
     - title: "Contacto"
       url: /contacto/
 
-      css:
-  - /assets/css/custom.css
+      
+  # rebuild
