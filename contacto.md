@@ -29,7 +29,7 @@ En caso de una emergencia vital o riesgo inminente, por favor acude a los servic
 
 ### 💬 Escríbenos directamente
 
-<a href="https://wa.me/573114951017" style="background:#25D366;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">WhatsApp</a>
+<a href="https://wa.me/573138743911" style="background:#25D366;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">WhatsApp</a>
 &nbsp;
 <a href="mailto:conscientemente524@gmail.com" style="background:#2F6F8F;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600;">Correo</a>
 &nbsp;
