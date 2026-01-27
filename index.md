@@ -4,6 +4,8 @@ layout: single
 author_profile: false
 ---
 
+# <span style="color:#6B4EFF;">Conscientemente, atención psicológica</span>
+
 Bienvenida/o a **Conscientemente**, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
 
 Aquí encontrarás acompañamiento terapéutico desde un **enfoque cognitivo-conductual**, con intervenciones basadas en evidencia científica y una mirada humana, ética y respetuosa.
