@@ -2,6 +2,7 @@
 title: "Sobre nosotros"
 layout: single
 author_profile: false
+permalink: /sobre-nosotros/
 ---
 
 En **Conscientemente** ofrecemos atención psicológica desde un enfoque **cognitivo-conductual**, con intervenciones basadas en evidencia científica y una mirada humana, ética y respetuosa.
