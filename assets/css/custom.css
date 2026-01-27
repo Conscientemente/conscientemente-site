@@ -1,0 +1,21 @@
+/* ===============================
+   Estilos personalizados Conscientemente
+   =============================== */
+
+/* Botones institucionales (azul) */
+.btn--info,
+.btn--primary,
+.btn--warning {
+  background-color: #2F6F8F;
+  border-color: #2F6F8F;
+  color: #ffffff;
+}
+
+.btn--info:hover,
+.btn--primary:hover,
+.btn--warning:hover {
+  background-color: #255A72;
+  border-color: #255A72;
+}
+
+/* Botón WhatsApp se mantiene verde (no se toca) */
