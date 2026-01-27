@@ -2,6 +2,7 @@
 title: "Servicios"
 layout: single
 author_profile: false
+permalink: /servicios/
 ---
 
 En **Conscientemente** ofrecemos atención psicológica basada en un **enfoque cognitivo-conductual**, con intervenciones sustentadas en evidencia científica y adaptadas a las necesidades de cada persona.
