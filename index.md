@@ -2,8 +2,10 @@
 title: "Conscientemente, atención psicológica"
 layout: single
 author_profile: false
+header:
+  show_title: false
 ---
-
+# <span style="color:#6B4EFF;">Conscientemente, atención psicológica</span>
 
 
 Bienvenida/o a **Conscientemente**, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
