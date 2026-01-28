@@ -6,7 +6,9 @@ header:
   show_title: false
 ---
 
-
+<style>
+.page__title { display: none; }
+</style>
 
 Bienvenida/o a **Conscientemente**, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
 
