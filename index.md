@@ -20,17 +20,17 @@ en modalidad
 
 <div class="diagnostic-grid">
 
-<div class="diagnostic-item">🌀 Ansiedad</div>
-<div class="diagnostic-item">👥 Fobia social</div>
-<div class="diagnostic-item">🌧️ Depresión</div>
-<div class="diagnostic-item">🔄 Trastorno bipolar</div>
-<div class="diagnostic-item">🧩 Trauma psicológico</div>
-<div class="diagnostic-item">💙 Autoestima</div>
-<div class="diagnostic-item">🔗 Relaciones y dependencia emocional</div>
-<div class="diagnostic-item">🧠 Trastornos de personalidad</div>
-<div class="diagnostic-item">🚨 Conducta suicida y autolesiones</div>
-<div class="diagnostic-item">🌱 Adolescencia y crianza</div>
-<div class="diagnostic-item">🕊️ Duelo</div>
-<div class="diagnostic-item">➕ Otros motivos de consulta</div>
+<a href="/ansiedad/" class="diagnostic-item">🌀 Ansiedad</a>
+<a href="/fobia-social/" class="diagnostic-item">👥 Fobia social</a>
+<a href="/depresion/" class="diagnostic-item">🌧️ Depresión</a>
+<a href="/trastorno-bipolar/" class="diagnostic-item">🔄 Trastorno bipolar</a>
+<a href="/trauma-psicologico/" class="diagnostic-item">🧩 Trauma psicológico</a>
+<a href="/autoestima/" class="diagnostic-item">💙 Autoestima</a>
+<a href="/relaciones-dependencia-emocional/" class="diagnostic-item">🔗 Relaciones y dependencia emocional</a>
+<a href="/trastornos-personalidad/" class="diagnostic-item">🧠 Trastornos de personalidad</a>
+<a href="/conducta-suicida-autolesiones/" class="diagnostic-item">🚨 Conducta suicida y autolesiones</a>
+<a href="/adolescencia-crianza/" class="diagnostic-item">🌱 Adolescencia y crianza</a>
+<a href="/duelo/" class="diagnostic-item">🕊️ Duelo</a>
+<a href="/otros-motivos/" class="diagnostic-item">➕ Otros motivos de consulta</a>
 
 </div>
