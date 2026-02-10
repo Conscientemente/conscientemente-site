@@ -45,16 +45,16 @@
 }
 
 .diagnostic-item {
-  background-color: #f6f7fb;
-  border-radius: 16px;
-  padding: 1rem 1.2rem;
+  background-color: #eef3f8;   /* un poco más visible, suave */
+  border-radius: 26px;         /* más burbuja, menos tarjeta */
+  padding: 1.2rem 1.4rem;
   font-weight: 500;
   text-align: left;
   cursor: default;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .diagnostic-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(47, 111, 143, 0.15); /* sombra con el azul institucional */
 }
