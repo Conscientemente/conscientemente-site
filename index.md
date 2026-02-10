@@ -14,3 +14,23 @@ Atendemos a
 en modalidad 
 <span style="color:#2F6F8F; font-weight:600;">presencial y online</span>.
 </p>
+---
+
+## 🧠 Áreas de acompañamiento terapéutico
+
+<div class="diagnostic-grid">
+
+<div class="diagnostic-item">🌀 Ansiedad</div>
+<div class="diagnostic-item">👥 Fobia social</div>
+<div class="diagnostic-item">🌧️ Depresión</div>
+<div class="diagnostic-item">🔄 Trastorno bipolar</div>
+<div class="diagnostic-item">🧩 Trauma psicológico</div>
+<div class="diagnostic-item">💙 Autoestima</div>
+<div class="diagnostic-item">🔗 Relaciones y dependencia emocional</div>
+<div class="diagnostic-item">🧠 Trastornos de personalidad</div>
+<div class="diagnostic-item">🚨 Conducta suicida y autolesiones</div>
+<div class="diagnostic-item">🌱 Adolescencia y crianza</div>
+<div class="diagnostic-item">🕊️ Duelo</div>
+<div class="diagnostic-item">➕ Otros motivos de consulta</div>
+
+</div>
