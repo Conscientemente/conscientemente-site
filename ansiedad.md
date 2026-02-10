@@ -2,6 +2,7 @@
 title: "Ansiedad"
 layout: single
 author_profile: false
+permalink: /ansiedad/
 ---
 
 La ansiedad es una respuesta emocional natural ante situaciones percibidas como amenazantes. Se manifiesta a nivel cognitivo, emocional, fisiológico y conductual.
