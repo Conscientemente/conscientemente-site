@@ -31,3 +31,30 @@
 .site-title a {
   color: #6B4EFF !important;
 }
+
+
+/* ===============================
+   Burbujas de áreas terapéuticas
+   =============================== */
+
+.diagnostic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.diagnostic-item {
+  background-color: #f6f7fb;
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.diagnostic-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
