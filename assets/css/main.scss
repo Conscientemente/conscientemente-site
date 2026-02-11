@@ -62,3 +62,36 @@
   text-decoration: none;
   color: inherit;
 }
+/* ===============================
+   Caja CTA Agenda Profesional
+   =============================== */
+
+.cta-box {
+  background-color: #f4f6fb;
+  border-left: 5px solid #6B4EFF; /* morado institucional */
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-top: 2.5rem;
+}
+
+.cta-box p {
+  margin-bottom: 1rem;
+}
+
+.whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #25D366;
+  color: #ffffff !important;
+  padding: 0.8rem 1.4rem;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+}
