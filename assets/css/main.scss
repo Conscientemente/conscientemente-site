@@ -95,7 +95,11 @@
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
 }
-.site-logo img {
+/* Forzar tamaño del logo en el header */
+.masthead__menu-item img,
+.masthead__brand img,
+.site-title img {
   height: 90px !important;
+  max-height: none !important;
   width: auto !important;
 }
