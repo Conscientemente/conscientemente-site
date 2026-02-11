@@ -19,4 +19,16 @@ En <strong>Conscientemente</strong>, ofrecemos acompañamiento terapéutico desd
 
 ---
 
+<div class="cta-box">
+  <p style="text-align: justify;">
+    ¿Te identificas con esta información? Podemos acompañarte en tu proceso.
+  </p>
+
+  <a href="https://wa.me/573114951017" target="_blank" class="whatsapp-cta">
+    <i class="fab fa-whatsapp"></i> Agenda tu cita por WhatsApp
+  </a>
+</div>
+
+---
+
 [← Volver al inicio](/)
