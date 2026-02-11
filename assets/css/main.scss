@@ -123,6 +123,30 @@
   .masthead__inner-wrap {
     min-height: 120px;
   }
+/* ===============================
+   Forzar tamaño real del logo (desktop + móvil)
+   =============================== */
+
+.masthead {
+  min-height: 120px;
+}
+
+.masthead__inner-wrap {
+  align-items: center;
+}
+
+.masthead__brand img {
+  height: 90px !important;   /* desktop */
+  max-height: none !important;
+  width: auto !important;
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  .masthead__brand img {
+    height: 70px !important;
+  }
+}   
 
   .masthead__brand img {
     height: 70px !important;
