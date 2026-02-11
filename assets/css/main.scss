@@ -103,3 +103,28 @@
   max-height: none !important;
   width: auto !important;
 }
+/* ===============================
+   Ajuste real del logo (desktop y móvil)
+   =============================== */
+
+/* Contenedor del header */
+.masthead__inner-wrap {
+  min-height: 160px;
+}
+
+/* Logo */
+.masthead__brand img {
+  height: 100px !important;
+  width: auto !important;
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    min-height: 120px;
+  }
+
+  .masthead__brand img {
+    height: 70px !important;
+  }
+}
