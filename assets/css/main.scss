@@ -173,3 +173,29 @@
     width: 320px;
   }
 }
+/* ===== Ajuste de header (reduce espacio inferior) ===== */
+.site-header {
+  padding-bottom: 0.5rem;
+}
+
+/* Reduce separación entre header y contenido */
+.initial-content {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+/* Ajuste fino del bloque del logo */
+.logo-home {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .site-header {
+    padding-bottom: 0.25rem;
+  }
+
+  .logo-home {
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+}
