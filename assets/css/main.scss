@@ -162,11 +162,14 @@
   margin: 2rem 0 2.5rem 0;
 }
 
+/* Logo principal HOME – tamaño real */
 .logo-home img {
-  max-width: 420px;
+  width: 520px;
+  max-width: none;
   height: auto;
+}
 @media (max-width: 768px) {
   .logo-home img {
-    max-width: 300px;
+    width: 320px;
   }
 }
