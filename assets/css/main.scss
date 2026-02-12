@@ -152,3 +152,17 @@
     height: 70px !important;
   }
 }
+/* Reduce el espacio inicial del contenido en la home */
+.page__content {
+  margin-top: 0;
+}
+/* Logo principal en la home */
+.logo-home {
+  text-align: center;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.logo-home img {
+  max-width: 280px;
+  height: auto;
+}
