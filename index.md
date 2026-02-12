@@ -1,5 +1,5 @@
 ---
-title: "Conscientemente, atención psicológica"
+title: ""
 layout: single
 author_profile: false
 ---
@@ -10,7 +10,7 @@ author_profile: false
 </div>
 
 <p style="text-align: justify;">
-Bienvenida/o a <strong>Conscientemente</strong>, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
+Bienvenidos a <strong>Conscientemente</strong>, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
 </p>
 
 <p style="text-align: justify;">
