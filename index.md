@@ -1,7 +1,14 @@
+---
+title: "Conscientemente, atención psicológica"
+layout: single
+author_profile: false
+---
+
 <div class="logo-home">
   <img src="/assets/images/logo-conscientemente.png"
        alt="Conscientemente, atención psicológica">
 </div>
+
 <p style="text-align: justify;">
 Bienvenida/o a <strong>Conscientemente</strong>, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
 </p>
@@ -18,7 +25,8 @@ Atendemos a
 en modalidad 
 <span style="color:#2F6F8F; font-weight:600;">presencial y online</span>.
 </p>
----
+
+<hr>
 
 ## 🧠 Áreas de acompañamiento terapéutico
 
