@@ -1,3 +1,7 @@
+<div class="logo-home">
+  <img src="/assets/images/logo-conscientemente.png"
+       alt="Conscientemente, atención psicológica">
+</div>
 <p style="text-align: justify;">
 Bienvenida/o a <strong>Conscientemente</strong>, un espacio de atención psicológica orientado al bienestar emocional y la salud mental.
 </p>
