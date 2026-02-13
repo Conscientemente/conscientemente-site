@@ -20,8 +20,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 plugins:
   - jekyll-include-cache
-  - jekyll-paginate
-paginate: 10
+  
 # ===============================
 # Layout por defecto
 # ===============================
