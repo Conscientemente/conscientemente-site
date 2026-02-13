@@ -158,3 +158,51 @@
     font-size: 0.95rem;
   }
 }
+/* =====================================================
+   TIPOGRAFÍA + AJUSTE DE COLOR HEADER
+   ===================================================== */
+
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+/* Fuente base del sitio */
+body {
+  font-family: 'Lora', serif;
+}
+
+/* Títulos generales */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+/* Header – nombre de la marca */
+.site-title,
+.site-title a {
+  font-family: 'Magnolia Script', cursive;
+  color: #6A3FBF !important; /* morado más cálido */
+  font-weight: normal;
+}
+
+/* Subtítulo del header */
+.site-subtitle {
+  font-family: 'Lora', serif;
+  color: #4A4A4A;
+}
+/* =====================================================
+   MARCA "CONSCIENTEMENTE" – MAGNOLIA + MORADO
+   ===================================================== */
+
+/* Uso de la marca dentro del contenido */
+.marca-conscientemente {
+  font-family: 'Magnolia Script', cursive;
+  color: #6A3FBF;   /* morado más cálido */
+  font-weight: normal;
+}
+
+/* Opcional: si aparece en títulos */
+h1 .marca-conscientemente,
+h2 .marca-conscientemente,
+h3 .marca-conscientemente {
+  font-family: 'Magnolia Script', cursive;
+  color: #6A3FBF;
+}
