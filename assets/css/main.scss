@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-subtitle span {
   font-family: 'Lora', serif !important;
   font-style: normal !important;
-  color: #7A3E8E !important; /* morado */
+  color: #6A3FBF;   /* morado más cálido */
 }
 /* =====================================================
    HEADER – TÍTULO DE LA MARCA (COLOR DEFINITIVO)
@@ -248,4 +248,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Evita que hover lo vuelva gris */
 .site-title a:hover {
   color: #7A3E8E !important;
+}
+/* =====================================================
+   MARCA "CONSCIENTEMENTE" – MAGNOLIA + MORADO
+   ===================================================== */
+
+/* Uso de la marca dentro del contenido */
+.marca-conscientemente {
+  font-family: 'Magnolia Script', cursive;
+  color: #6A3FBF;   /* morado más cálido */
+  font-weight: normal;
 }
