@@ -1,4 +1,3 @@
-
 ---
 # Only the main Sass file needs front matter
 ---
@@ -16,7 +15,7 @@
 }
 
 /* =====================================================
-   TIPOGRAFÍA BASE
+   TIPOGRAFÍA BASE (ESTABLE)
    ===================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
@@ -30,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =====================================================
-   HEADER – MARCA Y MENÚ
+   HEADER Y MENÚ (ESTADO QUE FUNCIONA)
    ===================================================== */
 
 .site-header {
@@ -45,12 +44,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-/* Nombre de la marca (header) */
+/* Título del sitio (sin Magnolia por ahora) */
 .site-title,
 .site-title a {
-  font-family: 'Magnolia Script', cursive;
-  color: var(--morado-consciente) !important;
-  font-weight: normal;
+  font-family: 'Lora', serif;
+  color: var(--morado-consciente);
+  font-weight: 600;
 }
 
 /* Subtítulo */
@@ -58,9 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555555;
 }
 
-/* ===============================
-   MENÚ DE NAVEGACIÓN
-   =============================== */
+/* ---------- MENÚ ---------- */
 
 /* Estado normal */
 .masthead__menu-item a {
@@ -74,14 +71,14 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--morado-consciente);
 }
 
-/* Página activa */
+/* Activo */
 .masthead__menu-item.is-active a {
   color: var(--morado-consciente);
   font-weight: 600;
 }
 
 /* =====================================================
-   LOGO PRINCIPAL – HOME
+   LOGO HOME (ESTABLE)
    ===================================================== */
 
 .logo-home {
@@ -102,25 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 .initial-content {
   margin-top: 0;
   padding-top: 0.5rem;
-}
-
-/* =====================================================
-   TÍTULO DEL CONTENIDO DE CADA PÁGINA
-   ===================================================== */
-
-.page__header .page__title {
-  font-family: 'Magnolia Script', cursive !important;
-  color: var(--morado-consciente) !important;
-  font-weight: normal !important;
-}
-
-/* =====================================================
-   USO DE MARCA EN TEXTO
-   ===================================================== */
-
-.marca-conscientemente {
-  font-family: 'Magnolia Script', cursive;
-  color: var(--morado-consciente);
 }
 
 /* =====================================================
@@ -186,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 0.6rem;
   background-color: #25D366;
-  color: #ffffff !important;
+  color: #ffffff;
   padding: 0.8rem 1.4rem;
   border-radius: 40px;
   text-decoration: none;
@@ -218,36 +196,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
   }
 }
-/* =====================================================
-   CORRECCIONES FINALES DE TIPOGRAFÍA
-   ===================================================== */
 
-/* Subtítulo del header (debajo del nombre) → LORA */
-.site-subtitle {
-  font-family: 'Lora', serif !important;
-  color: #555555;
-}
 
-/* Título del contenido de cada página (ej. “Sobre nosotros”) */
-.page__header .page__title {
-  font-family: 'Magnolia Script', cursive !important;
-  color: #7A3E8E !important;
-  font-weight: normal !important;
-}
-/* =====================================================
-   RESTAURAR HEADER – ESTADO ESTABLE
-   ===================================================== */
 
-/* Título del header (marca) */
-.site-title,
-.site-title a {
-  font-family: 'Magnolia Script', cursive !important;
-  color: #7A3E8E !important;
-  font-weight: normal;
-}
-
-/* Subtítulo del header */
-.site-subtitle {
-  font-family: 'Lora', serif !important;
-  color: #555555 !important;
-}
