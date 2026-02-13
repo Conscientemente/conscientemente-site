@@ -259,3 +259,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #6A3FBF;   /* morado más cálido */
   font-weight: normal;
 }
+/* =====================================================
+   AJUSTES FINALES – COLOR + TIPOGRAFÍA HEADER 
+   ===================================================== */
+
+/* Morado institucional DEFINITIVO */
+:root {
+  --morado-consciente: #7A3E8E;
+}
+
+/* Nombre de la marca en el header */
+.site-title,
+.site-title a {
+  font-family: 'Magnolia Script', cursive;
+  color: var(--morado-consciente) !important;
+  font-weight: normal;
+}
+
+/* Subtítulo del header */
+.site-subtitle {
+  font-family: 'Lora', serif;
+  color: #555555;
+}
