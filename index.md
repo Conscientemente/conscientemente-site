@@ -2,8 +2,18 @@
 title: ""
 layout: home
 author_profile: false
+header:
+  overlay_image: /assets/images/banner-socializacion.jpg
+  overlay_filter: rgba(0, 0, 0, 0.45)
+  show_overlay_excerpt: false
+  actions:
+    - label: "Agenda tu socialización →"
+      url: "/agenda/"
 ---
+## Espacio de socialización gratuita
 
+Un primer encuentro para escucharte,  
+comprender tu situación y resolver dudas sobre el proceso.
 
 
 <p style="text-align: justify;">
