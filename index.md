@@ -4,7 +4,7 @@ layout: single
 author_profile: false
 ---
 
-<div class="home-banner">
+<div class="home-banner" markdown="0">
 
   <!-- Estado 1: Logo -->
   <div class="banner-slide banner-logo">
