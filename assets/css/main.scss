@@ -54,10 +54,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Subtítulo */
 .site-subtitle {
-  color: #555;
+  color: #555555;
 }
 
-/* ---------- MENÚ ---------- */
+/* ===============================
+   MENÚ DE NAVEGACIÓN
+   =============================== */
 
 /* Estado normal */
 .masthead__menu-item a {
@@ -71,14 +73,14 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--morado-consciente);
 }
 
-/* Activo */
+/* Página activa */
 .masthead__menu-item.is-active a {
   color: var(--morado-consciente);
   font-weight: 600;
 }
 
 /* =====================================================
-   LOGO HOME
+   LOGO PRINCIPAL – HOME
    ===================================================== */
 
 .logo-home {
@@ -103,10 +105,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* =====================================================
    TÍTULO DEL CONTENIDO DE CADA PÁGINA
-   (el “Sobre nosotros” que señalaste)
    ===================================================== */
 
-h1.page__title {
+.page__header .page__title {
   font-family: 'Magnolia Script', cursive !important;
   color: var(--morado-consciente) !important;
   font-weight: normal !important;
@@ -157,7 +158,7 @@ h1.page__title {
 .btn--warning {
   background-color: var(--azul-institucional);
   border-color: var(--azul-institucional);
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn--info:hover,
@@ -184,7 +185,7 @@ h1.page__title {
   align-items: center;
   gap: 0.6rem;
   background-color: #25D366;
-  color: #fff !important;
+  color: #ffffff !important;
   padding: 0.8rem 1.4rem;
   border-radius: 40px;
   text-decoration: none;
@@ -211,11 +212,6 @@ h1.page__title {
     width: 320px;
   }
 
-  .diagnostic-item {
-    padding: 0.8rem 1.3rem;
-    font-size: 0.95rem;
-  }
-}
   .diagnostic-item {
     padding: 0.8rem 1.3rem;
     font-size: 0.95rem;
