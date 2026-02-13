@@ -27,6 +27,11 @@ plugins:
 
 defaults:
   - scope:
+      path: "index.html"
+    values:
+      layout: default
+
+  - scope:
       path: ""
       type: pages
     values:
@@ -54,8 +59,4 @@ navigation:
 # Excepción para la página de inicio
 # ===============================
 
-defaults:
-  - scope:
-      path: "index.html"
-    values:
-      layout: default
+
