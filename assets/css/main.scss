@@ -289,3 +289,14 @@ h1, h2, h3, h4, h5, h6 {
   --masthead-link-color: #6A3FBF;
   --masthead-link-color-hover: #6A3FBF;
 }
+/* =====================================================
+   HEADER – SUBTÍTULO (LORA + MORADO DEFINITIVO)
+   ===================================================== */
+
+.site-subtitle,
+.site-subtitle p,
+.site-subtitle span {
+  font-family: 'Lora', serif !important;
+  font-style: normal !important;
+  color: #6A3FBF !important;
+}
