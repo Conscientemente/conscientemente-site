@@ -2,6 +2,7 @@
 title: ""
 layout: home
 author_profile: false
+excerpt: "Un primer encuentro para escucharte, comprender tu situación y resolver dudas sobre el proceso."
 header:
   overlay_image: /assets/images/banner-socializacion.jpg
   overlay_filter: rgba(0, 0, 0, 0.45)
