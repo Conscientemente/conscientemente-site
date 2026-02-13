@@ -206,3 +206,47 @@ h3 .marca-conscientemente {
   font-family: 'Magnolia Script', cursive;
   color: #6A3FBF;
 }
+/* =====================================================
+   AJUSTES FINALES – COLOR + TIPOGRAFÍA HEADER Y MENÚ
+   ===================================================== */
+
+/* Morado institucional DEFINITIVO */
+:root {
+  --morado-consciente: #7A3E8E;
+}
+
+/* Nombre de la marca en el header */
+.site-title,
+.site-title a {
+  font-family: 'Magnolia Script', cursive;
+  color: var(--morado-consciente) !important;
+  font-weight: normal;
+}
+
+/* Subtítulo del header */
+.site-subtitle {
+  font-family: 'Lora', serif;
+  color: #555555;
+}
+
+/* ===============================
+   MENÚ DE NAVEGACIÓN
+   =============================== */
+
+/* Ítems del menú */
+.masthead__menu-item a {
+  font-family: 'Lora', serif;
+  color: #5A5A5A;
+  font-weight: 500;
+}
+
+/* Hover del menú */
+.masthead__menu-item a:hover {
+  color: var(--morado-consciente);
+}
+
+/* Ítem activo */
+.masthead__menu-item.is-active a {
+  color: var(--morado-consciente);
+  font-weight: 600;
+}
