@@ -9,7 +9,7 @@
    ===================================================== */
 
 :root {
-  --morado-consciente: #7A3E8E;   /* morado cálido, alineado al logo */
+  --morado-consciente: #7A3E8E;
   --azul-institucional: #2F6F8F;
   --azul-institucional-hover: #255A72;
 }
@@ -18,29 +18,24 @@
    TIPOGRAFÍA BASE
    ===================================================== */
 
-/* Importar Lora */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
 
-/* Fuente general del sitio */
 body {
   font-family: 'Lora', serif;
 }
 
-/* Títulos generales */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif;
 }
 
 /* =====================================================
-   HEADER – MARCA Y NAVEGACIÓN
+   HEADER – MARCA Y MENÚ
    ===================================================== */
 
-/* Header general */
 .site-header {
-  padding-bottom: 0.25rem !important;
+  padding-bottom: 0.25rem;
 }
 
-/* Altura y alineación */
 .masthead {
   min-height: 120px;
 }
@@ -57,39 +52,38 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-/* Subtítulo del header */
+/* Subtítulo */
 .site-subtitle {
-  font-family: 'Lora', serif;
-  color: #555555;
+  color: #555;
 }
 
-/* Menú de navegación */
-.masthead__menu-item,
+/* ---------- MENÚ ---------- */
+
+/* Estado normal */
 .masthead__menu-item a {
   font-family: 'Lora', serif;
-  color: var(--morado-consciente) !important;
+  color: #5A5A5A;
   font-weight: 500;
 }
 
-/* Hover menú */
+/* Hover */
 .masthead__menu-item a:hover {
-  color: var(--morado-consciente) !important;
+  color: var(--morado-consciente);
 }
 
-/* Ítem activo */
+/* Activo */
 .masthead__menu-item.is-active a {
-  color: var(--morado-consciente) !important;
+  color: var(--morado-consciente);
   font-weight: 600;
 }
 
 /* =====================================================
-   LOGO PRINCIPAL – HOME
+   LOGO HOME
    ===================================================== */
 
 .logo-home {
   text-align: center;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  margin: 0.5rem 0 2rem;
 }
 
 .logo-home img {
@@ -99,33 +93,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =====================================================
-   CONTENIDO INICIAL – EVITA VACÍO
+   CONTENIDO INICIAL
    ===================================================== */
 
 .initial-content {
-  margin-top: 0 !important;
-  padding-top: 0.5rem !important;
+  margin-top: 0;
+  padding-top: 0.5rem;
 }
 
 /* =====================================================
-   USO DE MARCA EN CONTENIDO
+   TÍTULO DEL CONTENIDO DE CADA PÁGINA
+   (el “Sobre nosotros” que señalaste)
+   ===================================================== */
+
+h1.page__title {
+  font-family: 'Magnolia Script', cursive !important;
+  color: var(--morado-consciente) !important;
+  font-weight: normal !important;
+}
+
+/* =====================================================
+   USO DE MARCA EN TEXTO
    ===================================================== */
 
 .marca-conscientemente {
   font-family: 'Magnolia Script', cursive;
   color: var(--morado-consciente);
-  font-weight: normal;
-}
-
-h1 .marca-conscientemente,
-h2 .marca-conscientemente,
-h3 .marca-conscientemente {
-  font-family: 'Magnolia Script', cursive;
-  color: var(--morado-consciente);
 }
 
 /* =====================================================
-   ÁREAS TERAPÉUTICAS – BURBUJAS CIRCULARES
+   ÁREAS TERAPÉUTICAS – BURBUJAS
    ===================================================== */
 
 .diagnostic-grid {
@@ -160,7 +157,7 @@ h3 .marca-conscientemente {
 .btn--warning {
   background-color: var(--azul-institucional);
   border-color: var(--azul-institucional);
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn--info:hover,
@@ -187,7 +184,7 @@ h3 .marca-conscientemente {
   align-items: center;
   gap: 0.6rem;
   background-color: #25D366;
-  color: #ffffff !important;
+  color: #fff !important;
   padding: 0.8rem 1.4rem;
   border-radius: 40px;
   text-decoration: none;
@@ -210,17 +207,8 @@ h3 .marca-conscientemente {
     min-height: 100px;
   }
 
-  .logo-home {
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
   .logo-home img {
     width: 320px;
-  }
-
-  .diagnostic-grid {
-    gap: 0.75rem;
   }
 
   .diagnostic-item {
@@ -228,12 +216,8 @@ h3 .marca-conscientemente {
     font-size: 0.95rem;
   }
 }
-/* =====================================================
-   TÍTULO DEL CONTENIDO DE CADA PÁGINA
-   ===================================================== */
-
-h1.page__title {
-  font-family: 'Magnolia Script', cursive !important;
-  color: #7A3E8E !important;  /* morado institucional */
-  font-weight: normal !important;
+  .diagnostic-item {
+    padding: 0.8rem 1.3rem;
+    font-size: 0.95rem;
+  }
 }
