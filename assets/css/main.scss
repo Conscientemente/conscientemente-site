@@ -215,5 +215,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #7A3E8E;
   font-weight: normal;
 }
+/* =====================================================
+   TÍTULOS DE CONTENIDO DE CADA PÁGINA
+   (Sobre nosotros, Servicios, Contacto, etc.)
+   ===================================================== */
 
+.page__title {
+  font-family: 'Magnolia Script', cursive;
+  color: #7A3E8E;
+  font-weight: normal;
+}
+/* =====================================================
+   HEADER – SUBTÍTULO (LORA + COLOR CORRECTO)
+   ===================================================== */
+
+.site-subtitle,
+.site-subtitle p,
+.site-subtitle span {
+  font-family: 'Lora', serif !important;
+  font-style: normal !important;
+  color: #7A3E8E !important; /* morado */
+}
 
