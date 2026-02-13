@@ -311,3 +311,74 @@ h1, h2, h3, h4, h5, h6 {
   color: #6A3FBF !important;
 }
 @import "custom";
+/* ===== Banner Home – Socialización ===== */
+
+.home-banner {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+/* Slides base */
+.banner-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estado logo */
+.banner-logo img {
+  max-width: 320px;
+}
+
+/* Estado socialización */
+.banner-socializacion {
+  background-image: url("/assets/images/banner-socializacion.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Contenido */
+.banner-content {
+  position: relative;
+  max-width: 900px;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-content h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.banner-content p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+/* CTA */
+.banner-cta {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+
+.banner-cta:hover {
+  border-bottom-color: #ffffff;
+}
