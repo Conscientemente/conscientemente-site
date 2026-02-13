@@ -229,16 +229,11 @@ h3 .marca-conscientemente {
   }
 }
 /* =====================================================
-   TÍTULO DEL CONTENIDO DE CADA PÁGINA (NO MENÚ)
+   TÍTULO DEL CONTENIDO DE CADA PÁGINA (PAGE TITLE)
    ===================================================== */
 
-.page__content .page__title {
-  font-family: 'Magnolia Script', cursive;
-  color: var(--morado-consciente);
-  font-weight: normal;
-}
-/* Ítem activo */
-.masthead__menu-item.is-active a {
-  color: var(--morado-consciente);
-  font-weight: 600;
+h1.page__title {
+  font-family: 'Magnolia Script', cursive !important;
+  color: var(--morado-consciente) !important;
+  font-weight: normal !important;
 }
