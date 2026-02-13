@@ -196,6 +196,24 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95rem;
   }
 }
+/* =====================================================
+   MARCA Y TÍTULOS DE CONTENIDO – AJUSTE FINAL
+   ===================================================== */
 
+/* Nombre de la marca en el header */
+.site-title,
+.site-title a {
+  font-family: 'Magnolia Script', cursive;
+  color: #7A3E8E;
+  font-weight: normal;
+}
+
+/* Título del contenido de cada página
+   (ej. “Sobre nosotros”, debajo del header) */
+.page__header .page__title {
+  font-family: 'Magnolia Script', cursive;
+  color: #7A3E8E;
+  font-weight: normal;
+}
 
 
