@@ -382,3 +382,17 @@ h1, h2, h3, h4, h5, h6 {
 .banner-cta:hover {
   border-bottom-color: #ffffff;
 }
+/* Mostrar solo el banner como contenedor */
+.home-banner {
+  position: relative;
+}
+
+/* Ocultar estado socialización por defecto */
+.banner-socializacion {
+  display: none;
+}
+
+/* Mostrar logo inicialmente */
+.banner-logo {
+  display: flex;
+}
