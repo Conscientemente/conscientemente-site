@@ -1,14 +1,14 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 
 @import "minimal-mistakes";
 
-/* ===============================
-   Estilos personalizados Conscientemente
-   =============================== */
+/* =====================================================
+   ESTILOS PERSONALIZADOS – CONSCIENTEMENTE
+   ===================================================== */
 
-/* Botones institucionales (azul) */
+/* ---------- Colores institucionales en botones ---------- */
 .btn--info,
 .btn--primary,
 .btn--warning {
@@ -24,58 +24,92 @@
   border-color: #255A72;
 }
 
-/* WhatsApp se mantiene verde */
-
-/* Título de la marca (header) en morado */
+/* ---------- Título de la marca (header) ---------- */
 .site-title,
 .site-title a {
   color: #6B4EFF !important;
 }
 
+/* =====================================================
+   HEADER – CONTROL DE ALTURA Y ESPACIADO
+   ===================================================== */
 
-/* ===============================
-   Burbujas de áreas terapéuticas
-   =============================== */
+.site-header {
+  padding-bottom: 0.25rem !important;
+}
+
+.masthead {
+  min-height: 120px;
+}
+
+.masthead__inner-wrap {
+  align-items: center;
+}
+
+/* =====================================================
+   LOGO PRINCIPAL HOME
+   ===================================================== */
+
+.logo-home {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.logo-home img {
+  width: 520px;
+  max-width: none;
+  height: auto;
+}
+
+/* =====================================================
+   CONTENIDO INICIAL
+   ===================================================== */
+
+.initial-content {
+  margin-top: 0 !important;
+  padding-top: 0.5rem !important;
+}
+
+/* =====================================================
+   ÁREAS TERAPÉUTICAS – BURBUJAS CIRCULARES HORIZONTALES
+   ===================================================== */
 
 .diagnostic-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
 }
 
+/* Burbuja */
 .diagnostic-item {
-  background-color: #eef3f8;   /* un poco más visible, suave */
-  border-radius: 26px;         /* más burbuja, menos tarjeta */
-  padding: 1.2rem 1.4rem;
+  background-color: #eef3f8;
+  border-radius: 999px;          /* totalmente circular */
+  padding: 0.9rem 1.6rem;
   font-weight: 500;
-  text-align: left;
-  cursor: default;
+  text-decoration: none;
+  color: #2F6F8F;
+  white-space: nowrap;           /* evita formato tipo lista */
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+/* Hover */
 .diagnostic-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(47, 111, 143, 0.15); /* sombra con el azul institucional */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(47, 111, 143, 0.18);
 }
-.diagnostic-item {
-  text-decoration: none;
-  color: inherit;
-}
-/* ===============================
-   Caja CTA Agenda Profesional
-   =============================== */
+
+/* =====================================================
+   CTA WHATSAPP
+   ===================================================== */
 
 .cta-box {
   background-color: #f4f6fb;
-  border-left: 5px solid #6B4EFF; /* morado institucional */
+  border-left: 5px solid #6B4EFF;
   padding: 1.5rem;
   border-radius: 16px;
   margin-top: 2.5rem;
-}
-
-.cta-box p {
-  margin-bottom: 1rem;
 }
 
 .whatsapp-cta {
@@ -95,107 +129,32 @@
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
 }
-/* Forzar tamaño del logo en el header */
-.masthead__menu-item img,
-.masthead__brand img,
-.site-title img {
-  height: 150px !important;
-  max-height: none !important;
-  width: auto !important;
-}
-/* ===============================
-   Ajuste real del logo (desktop y móvil)
-   =============================== */
 
-/* Contenedor del header */
-.masthead__inner-wrap {
-  min-height: 160px;
-}
+/* =====================================================
+   MOBILE
+   ===================================================== */
 
-/* Logo */
-.masthead__brand img {
-  height: 100px !important;
-  width: auto !important;
-}
-
-/* Versión móvil */
 @media (max-width: 768px) {
-  .masthead__inner-wrap {
-    min-height: 120px;
-  }
-/* ===============================
-   Forzar tamaño real del logo (desktop + móvil)
-   =============================== */
 
-.masthead {
-  min-height: 120px;
-}
-
-.masthead__inner-wrap {
-  align-items: center;
-}
-
-.masthead__brand img {
-  height: 90px !important;   /* desktop */
-  max-height: none !important;
-  width: auto !important;
-}
-
-/* Versión móvil */
-@media (max-width: 768px) {
-  .masthead__brand img {
-    height: 70px !important;
-  }
-}   
-
-  .masthead__brand img {
-    height: 70px !important;
-  }
-}
-/* Reduce el espacio inicial del contenido en la home */
-.page__content {
-  margin-top: 0;
-}
-/* Logo principal en la home */
-.logo-home {
-  text-align: center;
-  margin: 2rem 0 2.5rem 0;
-}
-
-/* Logo principal HOME – tamaño real */
-.logo-home img {
-  width: 520px;
-  max-width: none;
-  height: auto;
-}
-@media (max-width: 768px) {
-  .logo-home img {
-    width: 320px;
-  }
-}
-/* ===== Ajuste de header (reduce espacio inferior) ===== */
-.site-header {
-  padding-bottom: 0.5rem;
-}
-
-/* Reduce separación entre header y contenido */
-.initial-content {
-  margin-top: 0;
-  padding-top: 1rem;
-}
-
-/* Ajuste fino del bloque del logo */
-.logo-home {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-@media (max-width: 768px) {
-  .site-header {
-    padding-bottom: 0.25rem;
+  .masthead {
+    min-height: 100px;
   }
 
   .logo-home {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
+  }
+
+  .logo-home img {
+    width: 320px;
+  }
+
+  .diagnostic-grid {
+    gap: 0.75rem;
+  }
+
+  .diagnostic-item {
+    padding: 0.8rem 1.3rem;
+    font-size: 0.95rem;
   }
 }
