@@ -4,9 +4,32 @@ layout: single
 author_profile: false
 ---
 
-<div class="logo-home">
-  <img src="/assets/images/logo-conscientemente.png"
-       alt="Conscientemente, atención psicológica">
+<div class="home-banner">
+
+  <!-- Estado 1: Logo -->
+  <div class="banner-slide banner-logo">
+    <img src="/assets/images/logo-conscientemente.png"
+         alt="Conscientemente, atención psicológica">
+  </div>
+
+  <!-- Estado 2: Socialización -->
+  <div class="banner-slide banner-socializacion">
+    <div class="banner-overlay"></div>
+
+    <div class="banner-content">
+      <h2>Espacio de socialización gratuita</h2>
+
+      <p>
+        Un primer encuentro para escucharte,<br>
+        comprender tu situación y resolver dudas sobre el proceso.
+      </p>
+
+      <a href="/agenda/" class="banner-cta">
+        Agenda tu socialización →
+      </a>
+    </div>
+  </div>
+
 </div>
 
 <p style="text-align: justify;">
