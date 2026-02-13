@@ -1,3 +1,4 @@
+
 ---
 # Only the main Sass file needs front matter
 ---
@@ -216,4 +217,20 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.8rem 1.3rem;
     font-size: 0.95rem;
   }
+}
+/* =====================================================
+   CORRECCIONES FINALES DE TIPOGRAFÍA
+   ===================================================== */
+
+/* Subtítulo del header (debajo del nombre) → LORA */
+.site-subtitle {
+  font-family: 'Lora', serif !important;
+  color: #555555;
+}
+
+/* Título del contenido de cada página (ej. “Sobre nosotros”) */
+.page__header .page__title {
+  font-family: 'Magnolia Script', cursive !important;
+  color: #7A3E8E !important;
+  font-weight: normal !important;
 }
