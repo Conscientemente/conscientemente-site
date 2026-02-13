@@ -234,3 +234,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #7A3E8E !important;
   font-weight: normal !important;
 }
+/* =====================================================
+   RESTAURAR HEADER – ESTADO ESTABLE
+   ===================================================== */
+
+/* Título del header (marca) */
+.site-title,
+.site-title a {
+  font-family: 'Magnolia Script', cursive !important;
+  color: #7A3E8E !important;
+  font-weight: normal;
+}
+
+/* Subtítulo del header */
+.site-subtitle {
+  font-family: 'Lora', serif !important;
+  color: #555555 !important;
+}
